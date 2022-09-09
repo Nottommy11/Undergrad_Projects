@@ -1,0 +1,303 @@
+*Load Game and Save*
+
+
+=========================================================================
+                        Welcome to Game 21
+=========================================================================
+The rules are simple!
+  1. Each player is trying to get as close to 21 without going over.
+  2. Each player is ONLY trying to beat the dealer's hand.
+  3. The dealer will keep dealing himself cards
+     until he beats all players hands or goes over 21.
+  4. Tie goes to the player, not the dealer.
+  5. Each player gets dealt two cards between 1 - 10.
+  6. The player then can choose to receive additional cards.
+  7. Each player starts with $1.00
+  8. Default bet is 25 cents, but the player can double it after holding.
+  9. Winner is the last person with cash, not including the dealer.
+
+=========================================================================
+
+Previous Game Winnings
+
+  Sam's Total Winnings was               $1.75
+  Danny's Total Winnings was             $2.75
+  Antonio's Total Winnings was           $5.75
+
+=========================================================================
+
+Do you want to load your previous game? (y=yes, n=no): y
+Game Loaded!
+
+=========================================================================
+Starting game...
+=========================================================================
+
+Dealing to Sam
+  Cards: 9 7
+  Do you want another card? (y=yes, n=no): y
+  Cards: 9 7 1 
+  Do you want another card? (y=yes, n=no): n
+  Sam holds at 17
+  Do you want to double your 25 cent bet? (y=yes, n=no): n
+
+Dealing to Danny
+  Cards: 5 5
+  Do you want another card? (y=yes, n=no): y
+  Cards: 5 5 4 
+  Do you want another card? (y=yes, n=no): y
+  Cards: 5 5 4 8 
+  Sorry, Danny's hand exceeded 21
+
+Dealing to Antonio
+  Cards: 4 6
+  Do you want another card? (y=yes, n=no): y
+  Cards: 4 6 5 
+  Do you want another card? (y=yes, n=no): y
+  Cards: 4 6 5 4 
+  Do you want another card? (y=yes, n=no): n
+  Antonio holds at 19
+  Do you want to double your 25 cent bet? (y=yes, n=no): y
+
+Dealing to the dealer
+  Cards: 10 5 7
+  Dealer's hand exceeded 21
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Sam is a winner!
+Antonio is a winner!
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+End of Round Summary
+====================
+Sam balance is $2.00
+Danny balance is $2.50
+Antonio balance is $6.25
+
+===========================================
+Do you want to play again? (y=yes, n=no): y
+===========================================
+
+Dealing to Sam
+  Cards: 8 6
+  Do you want another card? (y=yes, n=no): y
+  Cards: 8 6 4 
+  Do you want another card? (y=yes, n=no): y
+  Cards: 8 6 4 6 
+  Sorry, Sam's hand exceeded 21
+
+Dealing to Danny
+  Cards: 2 6
+  Do you want another card? (y=yes, n=no): y
+  Cards: 2 6 6 
+  Do you want another card? (y=yes, n=no): y
+  Cards: 2 6 6 7 
+  Do you want another card? (y=yes, n=no): n
+  Danny holds at 21
+  Do you want to double your 25 cent bet? (y=yes, n=no): y
+
+Dealing to Antonio
+  Cards: 3 6
+  Do you want another card? (y=yes, n=no): y
+  Cards: 3 6 5 
+  Do you want another card? (y=yes, n=no): y
+  Cards: 3 6 5 9 
+  Sorry, Antonio's hand exceeded 21
+
+Dealing to the dealer
+  Cards: 2 4 6 3 5 9
+  Dealer's hand exceeded 21
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Danny is a winner!
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+End of Round Summary
+====================
+Sam balance is $1.75
+Danny balance is $3.00
+Antonio balance is $6.00
+
+===========================================
+Do you want to play again? (y=yes, n=no): n
+===========================================
+
+Do you want to save your game? (y=yes, n=no): y
+Game Saved!
+
+=========================================================================
+Game Over :(
+=========================================================================
+
+
+*Don't Load Game and Don't Save*
+
+
+=========================================================================
+                        Welcome to Game 21
+=========================================================================
+The rules are simple!
+  1. Each player is trying to get as close to 21 without going over.
+  2. Each player is ONLY trying to beat the dealer's hand.
+  3. The dealer will keep dealing himself cards
+     until he beats all players hands or goes over 21.
+  4. Tie goes to the player, not the dealer.
+  5. Each player gets dealt two cards between 1 - 10.
+  6. The player then can choose to receive additional cards.
+  7. Each player starts with $1.00
+  8. Default bet is 25 cents, but the player can double it after holding.
+  9. Winner is the last person with cash, not including the dealer.
+
+=========================================================================
+
+Previous Game Winnings
+
+  Sam's Total Winnings was               $1.75
+  Danny's Total Winnings was             $3.00
+  Antonio's Total Winnings was           $6.00
+
+=========================================================================
+
+Do you want to load your previous game? (y=yes, n=no): n
+Game not loaded
+
+=========================================================================
+
+Now lets get this game setup.  Who is all playing?
+  Please enter a player's name or enter 'done' when finished.
+
+  Enter the player's first name (without spaces): Thomas
+  Enter the player's first name (without spaces): Tommy
+  Enter the player's first name (without spaces): Jake
+  Enter the player's first name (without spaces): John
+  Enter the player's first name (without spaces): done
+
+=========================================================================
+Starting game...
+=========================================================================
+
+Dealing to Thomas
+  Cards: 2 4
+  Do you want another card? (y=yes, n=no): y
+  Cards: 2 4 4 
+  Do you want another card? (y=yes, n=no): y
+  Cards: 2 4 4 9 
+  Do you want another card? (y=yes, n=no): n
+  Thomas holds at 19
+  Do you want to double your 25 cent bet? (y=yes, n=no): y
+
+Dealing to Tommy
+  Cards: 8 10
+  Do you want another card? (y=yes, n=no): n
+  Tommy holds at 18
+  Do you want to double your 25 cent bet? (y=yes, n=no): n
+
+Dealing to Jake
+  Cards: 3 7
+  Do you want another card? (y=yes, n=no): y
+  Cards: 3 7 1 
+  Do you want another card? (y=yes, n=no): y
+  Cards: 3 7 1 5 
+  Do you want another card? (y=yes, n=no): y
+  Cards: 3 7 1 5 3 
+  Do you want another card? (y=yes, n=no): n
+  Jake holds at 19
+  Do you want to double your 25 cent bet? (y=yes, n=no): y
+
+Dealing to John
+  Cards: 4 1
+  Do you want another card? (y=yes, n=no): y
+  Cards: 4 1 8 
+  Do you want another card? (y=yes, n=no): y
+  Cards: 4 1 8 1 
+  Do you want another card? (y=yes, n=no): y
+  Cards: 4 1 8 1 1 
+  Do you want another card? (y=yes, n=no): y
+  Cards: 4 1 8 1 1 7 
+  Sorry, John's hand exceeded 21
+
+Dealing to the dealer
+  Cards: 4 2 4 4 4 8
+  Dealer's hand exceeded 21
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Thomas is a winner!
+Tommy is a winner!
+Jake is a winner!
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+End of Round Summary
+====================
+Thomas balance is $1.50
+Tommy balance is $1.25
+Jake balance is $1.50
+John balance is $0.75
+
+===========================================
+Do you want to play again? (y=yes, n=no): y
+===========================================
+
+Dealing to Thomas
+  Cards: 1 10
+  Do you want another card? (y=yes, n=no): y
+  Cards: 1 10 6 
+  Do you want another card? (y=yes, n=no): y
+  Cards: 1 10 6 1 
+  Do you want another card? (y=yes, n=no): n
+  Thomas holds at 18
+  Do you want to double your 25 cent bet? (y=yes, n=no): y
+
+Dealing to Tommy
+  Cards: 1 10
+  Do you want another card? (y=yes, n=no): y
+  Cards: 1 10 2 
+  Do you want another card? (y=yes, n=no): y
+  Cards: 1 10 2 8 
+  Do you want another card? (y=yes, n=no): n
+  Tommy holds at 21
+  Do you want to double your 25 cent bet? (y=yes, n=no): y
+
+Dealing to Jake
+  Cards: 4 3
+  Do you want another card? (y=yes, n=no): y
+  Cards: 4 3 8 
+  Do you want another card? (y=yes, n=no): y
+  Cards: 4 3 8 10 
+  Sorry, Jake's hand exceeded 21
+
+Dealing to John
+  Cards: 8 7
+  Do you want another card? (y=yes, n=no): y
+  Cards: 8 7 10 
+  Sorry, John's hand exceeded 21
+
+Dealing to the dealer
+  Cards: 9 6 10
+  Dealer's hand exceeded 21
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Thomas is a winner!
+Tommy is a winner!
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+End of Round Summary
+====================
+Thomas balance is $2.00
+Tommy balance is $1.75
+Jake balance is $1.25
+John balance is $0.50
+
+===========================================
+Do you want to play again? (y=yes, n=no): n
+===========================================
+
+Do you want to save your game? (y=yes, n=no): n
+Game not saved
+
+=========================================================================
+Game Over :(
+=========================================================================

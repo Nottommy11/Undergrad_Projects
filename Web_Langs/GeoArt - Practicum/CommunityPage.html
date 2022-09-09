@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>GeoArt</title>
+    <link rel="icon" type="image/x-icon" href="Icon.png">
+
+
+    <!--BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+
+    <!--BOOTSTRAP IMPORTED CSS AND MY THEMES-->
+    <link rel="stylesheet" href="BootstrapStyles.css">
+
+
+    <!--MY CSS-->
+    <link rel="stylesheet" href="Main.css">
+
+
+</head>
+<body>
+
+
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-sm bg-darkStyle navbar-dark py-3 fixed-top" style="opacity: 0.98;">
+        <div class="container">
+
+            <!--ICON BRAND-->
+            <a href="HomePage.html" class="navbar-brand">
+                <img
+                    src="Icon.png"
+                    class="rounded"
+                    alt="GeoArt Logo"
+                    width="40"
+                    height="40"
+                    class="d-inline-block align-top"
+                    />
+                <span class="hidden">GeoArt</span>
+            </a>
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto text-center">
+
+                    <!--COMMUNITY-->
+                    <li class="nav-item">
+                        <a href="CommunityPage.html" class="nav-link active">Community</a>
+                    </li>
+
+                    <!--DASHBOARD-->
+                    <li class="nav-item">
+                        <a href="DashboardPage.html" class="nav-link">Dashboard</a>
+                    </li>
+
+                    <!--ACCOUNT-->
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#" id="navbarDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown">
+                            Account
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li>
+                                <a class="dropdown-item"
+                                    href="#"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#signin">
+                                    Profile
+                                </a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                            <li>
+                                <a class="dropdown-item"
+                                    href="https://www.youtube.com/results?search_query=GeoArt+tutorial"
+                                    target="_blank">
+                                    Tutorials
+                                </a>
+                            </li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#help">Help</a></li>
+                            <li><a class="dropdown-item" href="#faq">FAQ</a></li>
+                            <li>
+                                <a class="dropdown-item"
+                                    href="#"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#feedback">
+                                    Send Feedback
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--SHOWCASE-->
+    <section class="bg-darkStyle2 text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+        <div class="container pt-5">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>GeoArt's
+                        <span class="text-attnYel">Top Pick</span>
+                    </h1>
+                    <p class="lead">
+                        <a href="AccountPage.html" class="nav-link text-white">
+                            Cotton Mather
+                            <span class="ms-2">-</span>
+                            <span class="h4 fw-bold ms-2">Example 2.0</span>
+                        </a>
+                    </p>
+                    <p class="lead mb-4 mt-0">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Fuga est tenetur ad voluptates dolores enim assumenda tempora aliquam!
+                    </p>
+                    <button
+                        class="btn btn-buttonBlue btn-lg"
+                    >
+                    <a href="#" class="nav-link text-white">View Project</a>
+                    </button>
+                </div>
+                <img
+                    class="img-fluid w-50 d-none d-md-block"
+                    src="ArtMuseum.svg"
+                    alt=""
+                >
+            </div>
+        </div>
+    </section>
+
+
+    <!--SEARCH BAR-->
+    <section class="bg-mainBlue text-darkStyle2 p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">
+                    Find Others And Their Projects
+                </h3>
+                <div class="input-group search-input">
+                    <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Search GeoArt"
+                    />
+                    <button
+                        class="btn btn-darkStyle2 btn-lg"
+                        type="button">
+                        <i class="bi bi-search p-1"></i>
+                        Search
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--FEATURED PROJECTS-->
+    <section class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4 text-black">Featured Projects</h2>
+
+            <!--ROW 1-->
+            <div class="row text-center g-4 my-1">
+                <div class="col-sm-12 col-md-6 col-xl-3">
+                    <div class="card bg-darkStyle2 text-light" style="min-height: 450px;">
+                        <a href="#">
+                            <img
+                                class="img-fluid card-img-top"
+                                src="ArtMuseum.svg"
+                                alt="">
+                        </a>
+                        <div class="card-body text-center">
+                            <h3 class="card-title mb-3">John Doe</h3>
+                            <h6 class="fw-bold">Example 2.0</h6>
+                            <p class="card-text">
+                                *No Content*
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="AccountPage.html" class="btn btn-buttonBlue">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-3">
+                    <div class="card bg-greyStyle text-light" style="min-height: 450px;">
+                        <a href="#">
+                            <img
+                                class="img-fluid card-img-top"
+                                src="ArtMuseum.svg"
+                                alt="">
+                        </a>
+                        <div class="card-body text-center">
+                            <h3 class="card-title mb-3">Jane Doe</h3>
+                            <h6 class="fw-bold">Example 2.0</h6>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Porro voluptatibus error nobis molestias fugit quis delectus repudiandae iste!
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="AccountPage.html" class="btn btn-buttonBlue">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-3">
+                    <div class="card bg-darkStyle2 text-light" style="min-height: 450px;">
+                        <a href="#">
+                            <img
+                                class="img-fluid card-img-top"
+                                src="ArtMuseum.svg"
+                                alt="">
+                        </a>
+                        <div class="card-body text-center">
+                            <h3 class="card-title mb-3">James Smith</h3>
+                            <h6 class="fw-bold">Example 2.0</h6>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, facilis?
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="AccountPage.html" class="btn btn-buttonBlue">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-3">
+                    <div class="card bg-greyStyle text-light" style="min-height: 450px;">
+                        <a href="#">
+                            <img
+                                class="img-fluid card-img-top"
+                                src="ArtMuseum.svg"
+                                alt="">
+                        </a>
+                        <div class="card-body text-center">
+                            <h3 class="card-title mb-3">Jane Doe</h3>
+                            <h6 class="fw-bold">Example 2.0</h6>
+                            <p class="card-text">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dolorem, ex. Id alias animi sint architecto illo explicabo!
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="AccountPage.html" class="btn btn-buttonBlue">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--ROW 2-->
+            <div class="row text-center g-4 my-1">
+                <div class="col-sm-12 col-md-6 col-xl-3">
+                    <div class="card bg-darkStyle2 text-light" style="min-height: 450px;">
+                        <a href="#">
+                            <img
+                                class="img-fluid card-img-top"
+                                src="ArtMuseum.svg"
+                                alt="">
+                        </a>
+                        <div class="card-body text-center">
+                            <h3 class="card-title mb-3">John Doe</h3>
+                            <h6 class="fw-bold">Example 2.0</h6>
+                            <p class="card-text">
+                                *No Content*
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="AccountPage.html" class="btn btn-buttonBlue">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-3">
+                    <div class="card bg-greyStyle text-light" style="min-height: 450px;">
+                        <a href="#">
+                            <img
+                                class="img-fluid card-img-top"
+                                src="ArtMuseum.svg"
+                                alt="">
+                        </a>
+                        <div class="card-body text-center">
+                            <h3 class="card-title mb-3">Jane Doe</h3>
+                            <h6 class="fw-bold">Example 2.0</h6>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Eos et debitis minus hic ratione provident.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="AccountPage.html" class="btn btn-buttonBlue">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-3">
+                    <div class="card bg-darkStyle2 text-light" style="min-height: 450px;">
+                        <a href="#">
+                            <img
+                                class="img-fluid card-img-top"
+                                src="ArtMuseum.svg"
+                                alt="">
+                        </a>
+                        <div class="card-body text-center">
+                            <h3 class="card-title mb-3">James Smith</h3>
+                            <h6 class="fw-bold">Example 2.0</h6>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, facilis?
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="AccountPage.html" class="btn btn-buttonBlue">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-3">
+                    <div class="card bg-greyStyle text-light" style="min-height: 450px;">
+                        <a href="#">
+                            <img
+                                class="img-fluid card-img-top"
+                                src="ArtMuseum.svg"
+                                alt="">
+                        </a>
+                        <div class="card-body text-center">
+                            <h3 class="card-title mb-3">Jane Doe</h3>
+                            <h6 class="fw-bold">Example 2.0</h6>
+                            <p class="card-text">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                Illo provident quasi voluptas, quidem assumenda aperiam porro?
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="AccountPage.html" class="btn btn-buttonBlue">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--FRIENDS' PROJECTS-->
+    <section class="bg-mainBlue p-5">
+        <div class="container">
+            <div class="text-center">
+                <button
+                    class="btn my-4 text-center text-black"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#friendprojects">
+                    <h2 class="text-center mb-4">Friends' Projects</h2>
+                    <i class="bi bi-chevron-double-down"></i>
+                </button>
+            </div>
+            <div
+                class="container align-items-center justify-content-between collapse"
+                id="friendprojects">
+
+                <!--ROW 1-->
+                <div class="row text-center g-4 my-1">
+                    <div class="col-sm-12 col-md-6 col-xl-3">
+                        <div class="card bg-darkStyle2 text-light" style="min-height: 450px;">
+                            <a href="#">
+                                <img
+                                    class="img-fluid card-img-top"
+                                    src="ArtMuseum.svg"
+                                    alt="">
+                            </a>
+                            <div class="card-body text-center">
+                                <h3 class="card-title mb-3">John Doe</h3>
+                                <h6 class="fw-bold">Example 2.0</h6>
+                                <p class="card-text">
+                                    *No Content*
+                                </p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="AccountPage.html" class="btn btn-buttonBlue">View Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3">
+                        <div class="card bg-greyStyle text-light" style="min-height: 450px;">
+                            <a href="#">
+                                <img
+                                    class="img-fluid card-img-top"
+                                    src="ArtMuseum.svg"
+                                    alt="">
+                            </a>
+                            <div class="card-body text-center">
+                                <h3 class="card-title mb-3">Jane Doe</h3>
+                                <h6 class="fw-bold">Example 2.0</h6>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Veritatis, natus voluptate? Adipisci, temporibus?
+                                </p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="AccountPage.html" class="btn btn-buttonBlue">View Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3">
+                        <div class="card bg-darkStyle2 text-light" style="min-height: 450px;">
+                            <a href="#">
+                                <img
+                                    class="img-fluid card-img-top"
+                                    src="ArtMuseum.svg"
+                                    alt="">
+                            </a>
+                            <div class="card-body text-center">
+                                <h3 class="card-title mb-3">James Smith</h3>
+                                <h6 class="fw-bold">Example 2.0</h6>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, facilis?
+                                </p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="AccountPage.html" class="btn btn-buttonBlue">View Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3">
+                        <div class="card bg-greyStyle text-light" style="min-height: 450px;">
+                            <a href="#">
+                                <img
+                                    class="img-fluid card-img-top"
+                                    src="ArtMuseum.svg"
+                                    alt="">
+                            </a>
+                            <div class="card-body text-center">
+                                <h3 class="card-title mb-3">Jane Doe</h3>
+                                <h6 class="fw-bold">Example 2.0</h6>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Quas dicta possimus rem aperiam minus praesentium!
+                                </p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="AccountPage.html" class="btn btn-buttonBlue">View Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--ROW 2-->
+                <div class="row text-center g-4 my-1">
+                    <div class="col-sm-12 col-md-6 col-xl-3">
+                        <div class="card bg-darkStyle2 text-light" style="min-height: 450px;">
+                            <a href="#">
+                                <img
+                                    class="img-fluid card-img-top"
+                                    src="ArtMuseum.svg"
+                                    alt="">
+                            </a>
+                            <div class="card-body text-center">
+                                <h3 class="card-title mb-3">John Doe</h3>
+                                <h6 class="fw-bold">Example 2.0</h6>
+                                <p class="card-text">
+                                    *No Content*
+                                </p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="AccountPage.html" class="btn btn-buttonBlue">View Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3">
+                        <div class="card bg-greyStyle text-light" style="min-height: 450px;">
+                            <a href="#">
+                                <img
+                                    class="img-fluid card-img-top"
+                                    src="ArtMuseum.svg"
+                                    alt="">
+                            </a>
+                            <div class="card-body text-center">
+                                <h3 class="card-title mb-3">Jane Doe</h3>
+                                <h6 class="fw-bold">Example 2.0</h6>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Ullam vero quos sapiente odit impedit expedita sed molestias doloribus.
+                                </p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="AccountPage.html" class="btn btn-buttonBlue">View Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3">
+                        <div class="card bg-darkStyle2 text-light" style="min-height: 450px;">
+                            <a href="#">
+                                <img
+                                    class="img-fluid card-img-top"
+                                    src="ArtMuseum.svg"
+                                    alt="">
+                            </a>
+                            <div class="card-body text-center">
+                                <h3 class="card-title mb-3">James Smith</h3>
+                                <h6 class="fw-bold">Example 2.0</h6>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, facilis?
+                                </p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="AccountPage.html" class="btn btn-buttonBlue">View Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3">
+                        <div class="card bg-greyStyle text-light" style="min-height: 450px;">
+                            <a href="#">
+                                <img
+                                    class="img-fluid card-img-top"
+                                    src="ArtMuseum.svg"
+                                    alt="">
+                            </a>
+                            <div class="card-body text-center">
+                                <h3 class="card-title mb-3">Jane Doe</h3>
+                                <h6 class="fw-bold">Example 2.0</h6>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Delectus quae qui nulla animi doloremque!
+                                </p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="AccountPage.html" class="btn btn-buttonBlue">View Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--TOP PROJECTS-->
+    <section class="p-5 bg-darkStyle2 text-light">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h2>Most Viewed Project - Past Week</h2>
+                    <p>
+                        <small class="fw-bold">
+                        1.3 Million Views
+                        </small>
+                    </p>
+                    <p class="lead">
+                        <a href="AccountPage.html" class="nav-link text-white">
+                            Cotton Mather
+                        </a>
+                    </p>
+                    <h6 class="fw-bold">Example 2.0</h6>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, harum.
+                    </p>
+                    <a href="#" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right text-black"></i> View Project
+                    </a>
+                </div>
+                <div class="col-md">
+                    <img src="ArtMuseum.svg"
+                        class="img-fluid"
+                        alt=""
+                    >
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-5 text-black">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="ArtMuseum.svg"
+                        class="img-fluid"
+                        alt=""
+                    >
+                </div>
+                <div class="col-md p-5">
+                    <h2>Most Downloaded Project - Past Week</h2>
+                    <p>
+                        <small class="fw-bold">
+                        1.3 Million Downloads
+                        </small>
+                    </p>
+                    <p class="lead">
+                        <a href="AccountPage.html" class="nav-link text-black">
+                            Doedat Lawson
+                        </a>
+                    </p>
+                    <h6 class="fw-bold">Example 2.0</h6>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Dolorum dolores et vel molestias perspiciatis debitis!
+                    </p>
+                    <a href="#" class="btn btn-darkStyle2 mt-3">
+                        <i class="bi bi-chevron-right text-white"></i> View Project
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-5 bg-darkStyle2 text-light">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h2>Most Liked Project - Past Week</h2>
+                    <p>
+                        <small class="fw-bold">
+                        1.3 Million Likes
+                        </small>
+                    </p>
+                    <p class="lead">
+                        <a href="AccountPage.html" class="nav-link text-white">
+                            John Hathorne
+                        </a>
+                    </p>
+                    <h6 class="fw-bold">Example 2.0</h6>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, debitis.
+                    </p>
+                    <a href="#" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right text-black"></i> View Project
+                    </a>
+                </div>
+                <div class="col-md">
+                    <img src="ArtMuseum.svg"
+                        class="img-fluid"
+                        alt=""
+                    >
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-5 text-black">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="ArtMuseum.svg"
+                        class="img-fluid"
+                        alt=""
+                    >
+                </div>
+                <div class="col-md p-5">
+                    <h2>Most Disliked Project - Past Week</h2>
+                    <p>
+                        <small class="fw-bold">
+                        1.3 Million Dislikes
+                        </small>
+                    </p>
+                    <p class="lead">
+                        <a href="AccountPage.html" class="nav-link text-black">
+                            Giles Corey
+                        </a>
+                    </p>
+                    <h6 class="fw-bold">Example 2.0</h6>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Veritatis nostrum fuga odit?
+                    </p>
+                    <a href="#" class="btn btn-darkStyle2 mt-3">
+                        <i class="bi bi-chevron-right text-white"></i> View Project
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--BASICS CARDS-->
+    <section id="help" class="p-5 bg-darkStyle2">
+        <div class="container align-items-center justify-content-between">
+            <div class="text-center">
+                <button
+                    class="btn my-4 text-center"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#geoartbasics">
+                    <h2 class="mb-4 text-white">GeoArt Basics</h2>
+                    <i class="bi text-white bi-chevron-double-down"></i>
+                </button>
+            </div>
+            <div class="container align-items-center justify-content-between collapse" id="geoartbasics">
+                <div class="card mb-4 bg-toolsBasic">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <a href="#">
+                                <img
+                                    class="img-fluid rounded-start"
+                                    src="ArtMuseum.svg"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body text-black">
+                                <h4 class="card-title">Basic Tools</h4>
+                                <p class="card-text lead">
+                                    The possibilities are endless, and we hand you the opportunity to create 
+                                    incredible pieces of art. You can learn some of the basic tools by clicking on the picture.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-4 bg-toolsInter">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <a href="#">
+                                <img
+                                    class="img-fluid rounded-start"
+                                    src="ArtMuseum.svg"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body text-black">
+                                <h4 class="card-title">Intermediate Tools</h4>
+                                <p class="card-text lead">
+                                    The possibilities are endless, and we hand you the opportunity to create 
+                                    incredible pieces of art. You can learn some of the intermediate tools by clicking on the picture.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-4 bg-toolsAdvan">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <a href="#">
+                                <img
+                                    class="img-fluid rounded-start"
+                                    src="ArtMuseum.svg"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body text-black">
+                                <h4 class="card-title">Advanced Tools</h4>
+                                <p class="card-text lead">
+                                    The possibilities are endless, and we hand you the opportunity to create 
+                                    incredible pieces of art. You can learn some of the advanced tools by clicking on the picture.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--QUESTION ACCORDION-->
+    <section id="faq" class="p-5">
+        <div class="container text-black">
+            <div class="text-center">
+                <button
+                    class="btn my-4 text-center"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faqquestions">
+                    <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+                    <i class="bi bi-chevron-double-down"></i>
+                </button>
+            </div>
+            <div class="container collapse" id="faqquestions">
+                <div class="accordion accordion-flush" id="questions">
+
+                    <!--ITEM 1-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#question-one">
+                                How do I get started?
+                            </button>
+                        </h2>
+                        <div
+                            id="question-one"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#questions">
+                            <div class="accordion-body">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                Modi vel dicta in fugit consequatur aliquam, iure officiis recusandae, 
+                                accusamus dolorem magni, rem fuga repellat. Temporibus sint mollitia consectetur fuga dolor veritatis ullam dolores? 
+                                Maxime, sint doloribus quod voluptatum dolorum vero fugiat voluptatibus voluptates ullam laudantium hic nihil eius ut provident.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--ITEM 2-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#question-two">
+                                Are there any type of fees associated with an account?
+                            </button>
+                        </h2>
+                        <div
+                            id="question-two"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#questions">
+                            <div class="accordion-body">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                Modi vel dicta in fugit consequatur aliquam, iure officiis recusandae, 
+                                accusamus dolorem magni, rem fuga repellat. Temporibus sint mollitia consectetur fuga dolor veritatis ullam dolores? 
+                                Maxime, sint doloribus quod voluptatum dolorum vero fugiat voluptatibus voluptates ullam laudantium hic nihil eius ut provident.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--ITEM 3-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#question-three">
+                                What do I need to know?
+                            </button>
+                        </h2>
+                        <div
+                            id="question-three"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#questions">
+                            <div class="accordion-body">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                Modi vel dicta in fugit consequatur aliquam, iure officiis recusandae, 
+                                accusamus dolorem magni, rem fuga repellat. Temporibus sint mollitia consectetur fuga dolor veritatis ullam dolores? 
+                                Maxime, sint doloribus quod voluptatum dolorum vero fugiat voluptatibus voluptates ullam laudantium hic nihil eius ut provident.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--ITEM 4-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#question-four">
+                                How do I find friends?
+                            </button>
+                        </h2>
+                        <div
+                            id="question-four"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#questions">
+                            <div class="accordion-body">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                Modi vel dicta in fugit consequatur aliquam, iure officiis recusandae, 
+                                accusamus dolorem magni, rem fuga repellat. Temporibus sint mollitia consectetur fuga dolor veritatis ullam dolores? 
+                                Maxime, sint doloribus quod voluptatum dolorum vero fugiat voluptatibus voluptates ullam laudantium hic nihil eius ut provident.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--ITEM 5-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#question-five">
+                                How do I save a project?
+                            </button>
+                        </h2>
+                        <div
+                            id="question-five"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#questions">
+                            <div class="accordion-body">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                Modi vel dicta in fugit consequatur aliquam, iure officiis recusandae, 
+                                accusamus dolorem magni, rem fuga repellat. Temporibus sint mollitia consectetur fuga dolor veritatis ullam dolores? 
+                                Maxime, sint doloribus quod voluptatum dolorum vero fugiat voluptatibus voluptates ullam laudantium hic nihil eius ut provident.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--FOOTER-->
+    <footer class="p-5 bg-darkStyle2 text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2021 GeoArt</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1 text-mainBlue"></i>
+            </a>
+        </div>
+    </footer>
+
+
+
+
+    <!--SIGN IN/SIGN UP MODAL-->
+    <div class="modal fade" id="signin">
+        <div class="modal-dialog modal-dialog-center">
+            <div class="modal-content">
+
+                <!--MODAL HEADER-->
+                <div class="modal-header">
+                    <h4 class="modal-title">Sign In/Sign Up</h4>
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal">
+                    </button>
+                </div>
+
+                <!--SIGN IN/SIGN UP ACCORDION-->
+                <div class="accordion accordion-flush" id="signinaccordion">
+
+                    <!--SIGN IN-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="signinheading">
+                            <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#signinbutton">
+                                Sign In To Your Account
+                            </button>
+                        </h2>
+                        <div
+                            id="signinbutton"
+                            class="accordion-collapse collapse show"
+                            data-bs-parent="#signinaccordion">
+                            <div
+                                class="accordion-body">
+                                <form>
+                                    <div class="mb-3 mt-3">
+                                        <label for="email">Email:</label>
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            id="email"
+                                            placeholder="Enter email"
+                                            name="email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="pwd">Password:</label>
+                                        <input 
+                                            type="password"
+                                            class="form-control"
+                                            id="pwd"
+                                            placeholder="Enter password"
+                                            name="pwd">
+                                    </div>
+                                    <div class="form-check mb-3">
+                                        <label class="form-check-label">
+                                            <input
+                                                class="form-check-input"
+                                                type="checkbox"
+                                                name="remember">
+                                                Remember me
+                                        </label>
+                                    </div>
+                                    <button
+                                        type="submit"
+                                        class="btn btn-buttonBlue">
+                                        Sign In
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--SIGN UP-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="signupheading">
+                            <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#signupbutton">
+                                Don't Have An Account?
+                                <span class="text-primary fw-bold text-decoration-underline ms-1">
+                                    Sign Up Here
+                                </span>
+                            </button>
+                        </h2>
+                        <div
+                            id="signupbutton"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#signinaccordion">
+                            <div
+                                class="accordion-body">
+                                <form>
+                                    <div class="mb-3 mt-3">
+                                        <label for="email">Email:</label>
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            id="email"
+                                            placeholder="Enter email"
+                                            name="email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="pwd">Password:</label>
+                                        <input 
+                                            type="password"
+                                            class="form-control"
+                                            id="pwd"
+                                            placeholder="Enter a password"
+                                            name="pwd">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="pwd">Confirm Password:</label>
+                                        <input 
+                                            type="password"
+                                            class="form-control"
+                                            id="pwd"
+                                            placeholder="Re-enter password"
+                                            name="pwd">
+                                    </div>
+                                    <button
+                                        type="submit"
+                                        class="btn btn-buttonBlue">
+                                        Sign Up
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--MODAL FOOTER-->
+                <div class="modal-footer">
+                    <button
+                        type="button"
+                        class="btn btn-buttonRed"
+                        data-bs-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--FEEDBACK MODAL-->
+    <div
+        class="modal fade"
+        id="feedback"
+        tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!--MODAL HEADER-->
+                <div class="modal-header">
+                    <h5
+                        class="modal-title"
+                        id="exampleModalLabel">
+                        Give Us Feedback
+                    </h5>
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+
+                        <!--FIRST NAME-->
+                        <div class="mb-3">
+                            <label
+                                for="first-name"
+                                class="col-form-label">
+                                First Name:
+                            </label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="first-name"
+                                placeholder="Enter first name"
+                                name="first-name"
+                            />
+                        </div>
+
+                        <!--LAST NAME-->
+                        <div class="mb-3">
+                            <label
+                                for="last-name"
+                                class="col-form-label">
+                                Last Name:
+                            </label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="last-name"
+                                placeholder="Enter last name"
+                                Name="last-name"
+                            />
+                        </div>
+
+                        <!--EMAIL-->
+                        <div class="mb-3">
+                            <label
+                                for="email"
+                                class="col-form-label">
+                                Email:
+                            </label>
+                            <input
+                                type="email"
+                                class="form-control"
+                                id="email"
+                                placeholder="Enter email"
+                                name="email"
+                            />
+                        </div>
+
+                        <!--USER FEEDBACK-->
+                        <div class="mb-3">
+                            <label
+                                for="user-feedback"
+                                class="col-form-label">
+                                Feedback:
+                            </label>
+                            <textarea
+                                class="form-control"
+                                id="user-feedback"
+                                rows="3"></textarea>
+                        </div>
+                        <button
+                            type="submit"
+                            class="btn btn-buttonBlue">
+                            Submit
+                        </button>
+                    </form>
+                </div>
+
+                <!--MODAL FOOTER-->
+                <div class="modal-footer">
+                    <button
+                        type="button"
+                        class="btn btn-buttonRed"
+                        data-bs-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--BOOTSTRAP JAVASCRIPT-->
+    <script src="bootstrap.bundle.js"></script>
+
+
+</body>
+</html>

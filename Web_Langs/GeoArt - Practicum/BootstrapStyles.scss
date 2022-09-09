@@ -1,0 +1,36 @@
+
+/*INCLUDE DEFAULT COLORS AND COLORS IN USE*/
+$theme-colors: (
+    "primary":      #0d6efd,
+    "secondary":    #6c757d,
+    "dark":         #212529,
+    "success":      #198754,
+    "info":         #0dcaf0,
+    "warning":      #ffc107,
+    "danger":       #dc3545,
+    "light":        #f8f9fa,
+    "toolsBasic":   #FBBC05, //Start of my colors
+    "toolsInter":   #34A853,
+    "toolsAdvan":   #EA4335,
+    "mainBlue":     #4285F4,
+    "buttonBlue":   #022fa1,
+    "buttonRed":    #a80716,
+    "attnYel":      #e6cb00,
+    "darkStyle":    #161616,
+    "darkStyle2":   #141414,
+    "greyStyle":    #212529,
+);
+
+/*FOR COLOR OF TEXT*/
+$color-contrast-dark:       #000 !default;
+$color-contrast-light:      #fff !default;
+
+/*COLOR OF TEXT FOR NAVBAR*/
+$navbar-dark-color:           rgba(white, .85) !default;
+$navbar-dark-hover-color:     rgba(white, .98) !default;
+
+/*FILL COLOR FOR CHECKBOX*/
+$component-active-bg:       #022fa1 !default;
+
+/*IMPORT BOOTSTRAP THEMES*/
+@import "BootstrapSCSS/bootstrap.scss";
