@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "Calculator/src",
+        "Calculator/lib"
+    ]
+}
