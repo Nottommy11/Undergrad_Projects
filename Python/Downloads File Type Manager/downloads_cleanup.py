@@ -1,5 +1,5 @@
 # Did notice that this could interrupt virus scans, so probably want to use this to clean up
-# downloads folder after scans have been completed
+# downloads folder after scans have been completed. Basically don't have it running while downloading files
 from os import scandir, rename
 from os.path import splitext, exists, join
 from shutil import move
