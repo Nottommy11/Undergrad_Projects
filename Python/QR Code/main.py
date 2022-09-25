@@ -4,9 +4,9 @@ import pyqrcode
 # import sys
 
 # Input Website Link Here
-url = pyqrcode.create("https://www.google.com/")
+url = pyqrcode.create("https://www.linkedin.com/in/thomas-marxsen")
 # Name of QR Code File, Adjust Size
-url.svg("Google.svg", scale=4)
+url.svg("LinkedIn.svg", scale=2)
 
 # url.svg("uca.svg", scale=4)
 # number = pyqrcode.create(123456789012345)
