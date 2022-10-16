@@ -1,0 +1,17 @@
+#containerOne{
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    display: grid;
+    grid-template-rows: 170px 2fr 70px;
+    grid-template-columns: 4fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer"
+    ;
+}
+
+#header {
+    padding: none;
+}
