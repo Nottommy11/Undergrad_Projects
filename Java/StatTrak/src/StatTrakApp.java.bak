@@ -279,7 +279,7 @@ public class StatTrakApp {
     
 	/**
 	 * Main method that creates the BB_Stats_App object and then
-	 * sets up the teams and plays the game via menu options.
+	 * setups up the teams and play the game via menu options.
 	 * 
 	 * @param args No command line input args are used for this application
 	 */
