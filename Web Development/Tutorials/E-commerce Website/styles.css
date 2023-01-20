@@ -135,15 +135,19 @@ nav {
 .slider-item:nth-child(1) .slider-bg {
   background-color: #369e62;
 }
+
 .slider-item:nth-child(2) .slider-bg {
   background-color: rebeccapurple;
 }
+
 .slider-item:nth-child(3) .slider-bg {
   background-color: teal;
 }
+
 .slider-item:nth-child(4) .slider-bg {
   background-color: cornflowerblue;
 }
+
 .slider-item:nth-child(5) .slider-bg {
   background-color: rgb(124, 115, 80);
 }
@@ -151,15 +155,19 @@ nav {
 .slider-item:nth-child(1) .slider-price {
   color: #369e62;
 }
+
 .slider-item:nth-child(2) .slider-price {
   color: white;
 }
+
 .slider-item:nth-child(3) .slider-price {
   color: teal;
 }
+
 .slider-item:nth-child(4) .slider-price {
   color: cornflowerblue;
 }
+
 .slider-item:nth-child(5) .slider-price {
   color: rgb(124, 115, 80);
 }
