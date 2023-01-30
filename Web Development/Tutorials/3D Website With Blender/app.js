@@ -4,7 +4,7 @@ canvas.height = window.innerHeight;
 
 const context = canvas.getContext("2d");
 //CHANGE THIS WHEN RENDERED
-const frameCount = 180;
+const frameCount = 130;
 
 const currentFrame = (index) =>
   `./blender-img/${
