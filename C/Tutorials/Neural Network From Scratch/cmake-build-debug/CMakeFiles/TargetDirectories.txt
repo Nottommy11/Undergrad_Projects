@@ -1,0 +1,3 @@
+C:/Users/Thomas/OneDrive - Wayne State College/Coding/Undergrad_Projects/C/Tutorials/Neural Network From Scratch/cmake-build-debug/CMakeFiles/Neural_Network_From_Scratch.dir
+C:/Users/Thomas/OneDrive - Wayne State College/Coding/Undergrad_Projects/C/Tutorials/Neural Network From Scratch/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Thomas/OneDrive - Wayne State College/Coding/Undergrad_Projects/C/Tutorials/Neural Network From Scratch/cmake-build-debug/CMakeFiles/rebuild_cache.dir

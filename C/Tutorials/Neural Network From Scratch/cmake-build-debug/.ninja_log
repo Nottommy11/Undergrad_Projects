@@ -1,0 +1,15 @@
+# ninja log v5
+0	64	6990962117870620	CMakeFiles/Neural_Network_From_Scratch.dir/main.c.obj	8e761d27939f8824
+65	237	6990962119390571	Neural_Network_From_Scratch.exe	3c89e46475332055
+2	124	6990992241507622	CMakeFiles/Neural_Network_From_Scratch.dir/main.c.obj	8e761d27939f8824
+126	221	6990992242437618	Neural_Network_From_Scratch.exe	3c89e46475332055
+2	253	6990996837980402	CMakeFiles/Neural_Network_From_Scratch.dir/main.c.obj	8e761d27939f8824
+254	533	6990996840742038	Neural_Network_From_Scratch.exe	3c89e46475332055
+2	91	6990997318681611	CMakeFiles/Neural_Network_From_Scratch.dir/main.c.obj	8e761d27939f8824
+92	195	6990997319681736	Neural_Network_From_Scratch.exe	3c89e46475332055
+1	83	6990998564702164	CMakeFiles/Neural_Network_From_Scratch.dir/main.c.obj	8e761d27939f8824
+84	173	6990998565562153	Neural_Network_From_Scratch.exe	3c89e46475332055
+2	81	6991001015210796	CMakeFiles/Neural_Network_From_Scratch.dir/main.c.obj	8e761d27939f8824
+81	173	6991001016090718	Neural_Network_From_Scratch.exe	3c89e46475332055
+1	104	6991001236733148	CMakeFiles/Neural_Network_From_Scratch.dir/main.c.obj	8e761d27939f8824
+104	191	6991001237553022	Neural_Network_From_Scratch.exe	3c89e46475332055
