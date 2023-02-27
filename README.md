@@ -22,6 +22,7 @@ Look at Prog. I file IO examples
 
 - [Undergrad\_Projects](#undergrad_projects)
 	- [Outline](#outline)
+	- [C-PLUS-PLUS](#c-plus-plus)
 		- [BASICS](#basics)
 			- [Get Started](#get-started)
 			- [Comments](#comments)
@@ -40,6 +41,7 @@ Look at Prog. I file IO examples
 			- [Overwrite a File](#overwrite-a-file)
 			- [Append Text to a File](#append-text-to-a-file)
 			- [Read From a File](#read-from-a-file)
+	- [C](#c)
 		- [BASICS](#basics-1)
 			- [Get Started](#get-started-1)
 			- [Comments](#comments-1)
@@ -50,6 +52,7 @@ Look at Prog. I file IO examples
 			- [Overwrite a File](#overwrite-a-file-1)
 			- [Append Text to a File](#append-text-to-a-file-1)
 			- [Read From a File](#read-from-a-file-1)
+	- [C-SHARP](#c-sharp)
 		- [BASICS](#basics-2)
 			- [Get Started](#get-started-2)
 			- [Comments](#comments-2)
@@ -57,6 +60,7 @@ Look at Prog. I file IO examples
 		- [CLASSES](#classes-1)
 		- [EXCEPTIONS](#exceptions-1)
 		- [FILE IO](#file-io-2)
+	- [JAVA](#java)
 		- [BASICS](#basics-3)
 			- [Get Started](#get-started-3)
 			- [Comments](#comments-3)
@@ -71,6 +75,7 @@ Look at Prog. I file IO examples
 			- [Get File Information](#get-file-information)
 			- [Delete a File](#delete-a-file)
 			- [Delete a Folder](#delete-a-folder)
+	- [PYTHON](#python)
 		- [BASICS](#basics-4)
 			- [Get Started](#get-started-4)
 			- [Comments](#comments-4)
@@ -84,6 +89,7 @@ Look at Prog. I file IO examples
 			- [Read From a File](#read-from-a-file-3)
 			- [Delete a File](#delete-a-file-1)
 			- [Delete a Folder](#delete-a-folder-1)
+	- [MARKDOWN](#markdown)
 		- [BASICS](#basics-5)
 
 <!--
@@ -101,9 +107,11 @@ Look at Prog. I file IO examples
 
 ---
 
-<p align="center" name="cpp">
+## C-PLUS-PLUS
+
+<div align="center" name="cpp">
     <img alt="C++" width="80" src="./img/cpp.svg" />
-</p>
+</div>
 
 ### <a name="cpp-basics"><ins>BASICS</ins></a>
 
@@ -448,9 +456,11 @@ MyFile.close();
 
 ---
 
-<p align="center" name="c">
+## C
+
+<div align="center" name="c">
     <img alt="C" width="80" src="./img/c.svg" />
-</p>
+</div>
 
 ### <a name="c-basics"><ins>BASICS</ins></a>
 
@@ -600,9 +610,11 @@ fclose(fptr);
 
 ---
 
-<p align="center" name="c-sharp">
+## C-SHARP
+
+<div align="center" name="c-sharp">
     <img alt="C#" width="80" src="./img/csharp.svg" />
-</p>
+</div>
 
 ### <a name="cs-basics"><ins>BASICS</ins></a>
 
@@ -679,9 +691,11 @@ Console.WriteLine("File IO");
 
 ---
 
-<p align="center" name="java">
+## JAVA
+
+<div align="center" name="java">
     <img alt="Java" width="80" src="./img/java.svg" />
-</p>
+</div>
 
 ### <a name="java-basics"><ins>BASICS</ins></a>
 
@@ -925,9 +939,11 @@ else {
 
 ---
 
-<p align="center" name="python">
+## PYTHON
+
+<div align="center" name="python">
     <img alt="Python" width="80" src="./img/python.svg" />
-</p>
+</div>
 
 ### <a name="py-basics"><ins>BASICS</ins></a>
 
@@ -1159,9 +1175,11 @@ os.rmdir("myfolder")
 
 ---
 
-<p align="center" name="markdown">
+## MARKDOWN
+
+<div align="center" name="markdown">
     <img alt="Markdown" width="80" src="./img/markdown.png" />
-</p>
+</div>
 
 ### <a name="markdown-basics"><ins>BASICS</ins></a>
 
