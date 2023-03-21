@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.year-text {
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  z-index: 2;
+}
