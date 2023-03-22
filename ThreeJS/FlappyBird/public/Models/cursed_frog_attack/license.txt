@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cursed Frog_Attack
+* source:	https://sketchfab.com/3d-models/cursed-frog-attack-a09be44bb57c451ea502bcd568492ee0
+* author:	Pol Karaga Roselló (https://sketchfab.com/Noouk)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cursed Frog_Attack" (https://sketchfab.com/3d-models/cursed-frog-attack-a09be44bb57c451ea502bcd568492ee0) by Pol Karaga Roselló (https://sketchfab.com/Noouk) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
