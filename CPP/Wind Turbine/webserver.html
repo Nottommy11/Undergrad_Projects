@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ESP Web Server</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="data:," />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.js"
+      integrity="sha512-CWVDkca3f3uAWgDNVzW+W4XJbiC3CH84P2aWZXj+DqI6PNbTzXbl1dIzEHeNJpYSn4B6U8miSZb/hCws7FnUZA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <style>
+      html {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      }
+      h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        color: rgb(20, 54, 66);
+      }
+      span {
+        font-size: 1.5rem;
+      }
+      .top-nav {
+        overflow: hidden;
+        background-color: rgb(20, 54, 66);
+      }
+      .nav-text {
+        font-size: 1.8rem;
+        color: white;
+      }
+      body {
+        margin: 0;
+      }
+      .content {
+        padding: 30px;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      .card {
+        background-color: rgb(248, 247, 249);
+        box-shadow: 2px 2px 12px 1px rgba(140, 140, 140, 0.5);
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .data {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(20, 54, 66);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      #volt-json {
+        display: none;
+      }
+    </style>
+    <title>Wind Turbine Data</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="data:," />
+  </head>
+  <body>
+    <div class="top-nav">
+      <h1 class="nav-text">ESP WebSocket Server - Wind Turbine Data</h1>
+    </div>
+    <div class="content">
+      <div class="card">
+        <h2>Temp: <span id="temp">%STATE%</span><span> F</span></h2>
+        <h2>Humidity: <span id="humidity">%STATE%</span> %</h2>
+        <h2>Pressure: <span id="pressure">%STATE%</span> hpa</h2>
+        <h2>Altitude: <span id="altitude">%STATE%</span> m</h2>
+        <h2>Light: <span id="light">%STATE%</span></h2>
+        <h2>Wind Speed: <span id="speed">%STATE%</span> mph</h2>
+        <h2>Direction: <span id="direction">%STATE%</span></h2>
+        <h2>Voltage: <span id="volts">%STATE%</span> V</h2>
+      </div>
+    </div>
+
+    <script>
+      var gateway = `ws://${window.location.hostname}/ws`;
+      var websocket;
+
+      function initWebSocket() {
+        console.log("Trying to open a WebSocket connection...");
+        websocket = new WebSocket(gateway);
+        websocket.onopen = onOpen;
+        websocket.onclose = onClose;
+        websocket.onmessage = function (event) {
+          onData(event);
+        };
+      }
+
+      function onOpen(event) {
+        console.log("Connection opened");
+      }
+
+      function onClose(event) {
+        console.log("Connection closed");
+        setTimeout(initWebSocket, 2000);
+      }
+
+      function onData(event) {
+        const today = new Date();
+        const hour = today.getHours();
+
+        var data = JSON.parse(event.data);
+        document.getElementById("temp").innerHTML = data.temp * 1.8 + 32;
+        document.getElementById("humidity").innerHTML = data.humidity;
+        document.getElementById("pressure").innerHTML = data.pressure;
+        document.getElementById("altitude").innerHTML = data.altitude;
+        document.getElementById("light").innerHTML = data.light;
+        document.getElementById("speed").innerHTML = data.speed;
+        document.getElementById("direction").innerHTML = data.direction;
+        document.getElementById("volts").innerHTML = data.volts;
+
+        console.log(data);
+      }
+
+      window.addEventListener("load", onLoad);
+      function onLoad(event) {
+        initWebSocket();
+      }
+    </script>
+  </body>
+</html>
