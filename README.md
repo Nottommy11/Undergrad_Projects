@@ -1,4 +1,4 @@
-# Undergrad_Pr# Undergrad_Projects
+# Undergrad_Projects
  Projects I have worked on while attending Wayne State College.
 
 ---
